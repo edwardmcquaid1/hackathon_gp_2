@@ -1,0 +1,21 @@
+# Data files
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.feather
+*.avro
+*.orc
+*.xls
+*.xlsx
+*.h5
+*.hdf5
+
+# Data directories
+input/
+output/
+datasets/
