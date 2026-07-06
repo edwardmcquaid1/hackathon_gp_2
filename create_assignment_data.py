@@ -1,5 +1,12 @@
 """Generate assignment CSV data for configured modules.
 
+What the script does:
+- Stores assignment records in a structured Python list of dictionaries.
+- Normalizes mixed date formats into one standard format (YYYY-MM-DD).
+- Maps source fields into clean CSV columns with snake_case names.
+- Derives number_of_hours from credits using a consistent formula (credits * 2.5).
+- Writes a ready-to-use CSV file for downstream analysis.
+
 Usage:
 	python3 create_assignment_data.py
 
