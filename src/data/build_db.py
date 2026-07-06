@@ -42,6 +42,31 @@ class Students(Table):
     ]
 
 
+class Assignments(Table):
+    """Assignments Table. Holds information such as assignment details."""
+    TABLE_NAME = "assignments"
+    RAW_COLS = [
+        "assignment_id",
+        "assignment_name",
+        "module_name",
+        "release_date",
+        "due_date",
+        "number_of_credits",
+        "number_of_hours"
+    ]
+
+class apprenticeLog(Table):
+    """Apprentice Log Table. Holds information such as apprentice log details."""
+    TABLE_NAME = "apprentice_log"
+    RAW_COLS = [
+        "student_id",
+        "assignment_id",
+        "assignment_name",
+        "module_name",
+        "number_of_hours"
+    ]
+
+
 class DataBase:
     TABLES = []
 
