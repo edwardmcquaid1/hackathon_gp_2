@@ -42,6 +42,17 @@ class Assignments(Table):
         "number_of_hours"
     ]
 
+class apprenticeLog(Table):
+    """Apprentice Log Table. Holds information such as apprentice log details."""
+    TABLE_NAME = "apprentice_log"
+    RAW_COLS = [
+        "student_id",
+        "assignment_id",
+        "assignment_name",
+        "module_name",
+        "number_of_hours"
+    ]
+
 class DataBase:
     TABLES = []
  
