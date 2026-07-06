@@ -150,6 +150,46 @@ SOURCE_ASSIGNMENTS = [
 		"release_date": "19/05/26",
 		"final_deadline": "24/06/26",
 	},
+	{
+		"assignment_name": "Reflective Coursework",
+		"module_name": "Synoptic Data Science Assessment 1",
+		"module_code": "ZDAT1004",
+		"credits": 16,
+		"release_date": "16/03/26",
+		"final_deadline": "03/06/26",
+	},
+	{
+		"assignment_name": "Multiple Choice Knowledge Test",
+		"module_name": "Synoptic Data Science Assessment 2",
+		"module_code": "ZDAT1004",
+		"credits": 4,
+		"release_date": "06/07/26",
+		"final_deadline": "06/07/26",
+	},
+	{
+		"assignment_name": "Assessment Part 1",
+		"module_name": "Software Portfolio Assessment",
+		"module_code": "ZDAT1001",
+		"credits": 10,
+		"release_date": "12/01/26",
+		"final_deadline": "28/01/26",
+	},
+	{
+		"assignment_name": "Assessment Part 2",
+		"module_name": "Software Portfolio Assessment",
+		"module_code": "ZDAT1001",
+		"credits": 10,
+		"release_date": "16/03/26",
+		"final_deadline": "22/04/26",
+	},
+	{
+		"assignment_name": "Assessment Part 3",
+		"module_name": "Software Portfolio Assessment",
+		"module_code": "ZDAT1001",
+		"credits": 20,
+		"release_date": "04/05/26",
+		"final_deadline": "17/06/26",
+	},
 ]
 
 # These headers define the exact CSV schema expected by the prototype dataset.
