@@ -154,13 +154,13 @@ SOURCE_ASSIGNMENTS = [
 
 # These headers define the exact CSV schema expected by the prototype dataset.
 COLUMNS = [
-	"module code",
-	"module name",
-	"assignment name",
-	"release date",
-	"due date",
-	"number of credits",
-	"number of hours",
+	"module_code",
+	"module_name",
+	"assignment_name",
+	"release_date",
+	"due_date",
+	"number_of_credits",
+	"number_of_hours",
 ]
 
 
@@ -225,13 +225,13 @@ def build_rows() -> list[dict[str, str | int | float]]:
 		# Map source columns to the required output schema.
 		rows.append(
 			{
-				"module code": assignment["module_code"],
-				"module name": assignment["module_name"],
-				"assignment name": assignment["assignment_name"],
-				"release date": parse_source_date(str(assignment["release_date"])),
-				"due date": parse_source_date(str(assignment["final_deadline"])),
-				"number of credits": credits,
-				"number of hours": credits * 2.5,
+				"module_code": assignment["module_code"],
+				"module_name": assignment["module_name"],
+				"assignment_name": assignment["assignment_name"],
+				"release_date": parse_source_date(str(assignment["release_date"])),
+				"due_date": parse_source_date(str(assignment["final_deadline"])),
+				"number_of_credits": credits,
+				"number_of_hours": credits * 2.5,
 			}
 		)
 
