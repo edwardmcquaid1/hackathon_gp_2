@@ -1,7 +1,6 @@
 ```mermaid
 erDiagram
-    STUDENTS ||--|| APPRENTICE_LOG : has_one
-    STUDENTS ||--o{ ASSIGNMENTS : has_many
+    STUDENTS ||--o{ APPRENTICE_LOG : has_one
     ASSIGNMENTS ||--o{ APPRENTICE_LOG : logs_hours
     STUDENTS {
         string student_id PK
